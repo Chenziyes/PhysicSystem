@@ -1,3 +1,45 @@
 version https://git-lfs.github.com/spec/v1
 oid sha256:20b82908231458ef43bbb30322fe8ad0a285e1c299b1ba1ada83e37c19f12a9b
 size 1869582
+
+Video link: https://youtu.be/8zNvDBdgD6A
+
+----------------------------------------------------------------------------
+Skills used：
+Menu
+State machine
+Physic collision(AABB,OBB,Capsule)
+Wall perspective
+Coin collection
+Raycasting
+Constraints 
+Path Finding
+Behaviour Trees
+Broad phase and Narrow phase
+----------------------------------------------------------------------------
+Instructions
+↑:KEYBOARD_UP	The selectionObject moves forward.
+And
+Menu selection.	You should Lock selectionObject first.
+↓:KEYBOARD_DOWN	The selectionObject backs away.
+and
+Menu selection.	
+←:KEYBOARD_LEFT	The selectionObject shifts left	
+→:KEYBOARD_RIGHT	The selectionObject shifts right	
+KEYBOARD_SPACE	Jump.	
+W: KEYBOARD_W	The camera moves forward	You should unLock selectionObject
+S: KEYBOARD_S	The camera backs away	
+A: KEYBOARD_A	The camera shifts left	
+D: KEYBOARD_D	The camera shifts right	
+G: KEYBOARD_G	Gravity Switch	
+L: KEYBOARD_L	Lock selectionObject	
+SHIFT: KEYBOARD_SHIFT	The camera descends	
+SPACE: KEYBOARD_SPACE	The camera rises	
+F1: KEYBOARD_F1	Reset all	
+F2: KEYBOARD_F2	Reset camera	
+P: KEYBOARD_P	Pause	
+U: KEYBOARD_U	Continue	
+F: KEYBOARD_F	Find your goat brother(when u not find him)
+Take your goat brother with a rope（when u found him）	2 functions.
+
+
